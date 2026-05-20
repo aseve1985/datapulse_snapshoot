@@ -1,0 +1,4 @@
+redshift_connector
+pandas
+pyarrow
+boto3
