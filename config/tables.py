@@ -23,6 +23,13 @@ TABLAS: dict[str, dict] = {
         "universo":    "ventas",   # → archivo: ventas_YYYY-MM-DD.parquet
     },
 
+    # ── Servicios ─────────────────────────────────────────────────────────────
+    "servicios_multipais": {
+        "query":       "SELECT * FROM platinum_ia.vw_servicios_multipais",
+        "descripcion": "Vista de servicios multi-pais (crosselling)",
+        "universo":    "servicios",  # → archivo: servicios_platinum.parquet
+    },
+
     # ── Legales (desactivado - data manejada por otro proceso) ───────────────
     # "legales_uif": {
     #     "query":       "SELECT * FROM platinum_ia.monitor_uif_arg",
