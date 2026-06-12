@@ -30,6 +30,13 @@ TABLAS: dict[str, dict] = {
         "universo":    "servicios",  # → archivo: servicios_platinum.parquet
     },
 
+    # ── Cobranzas ─────────────────────────────────────────────────────────────
+    "cobranzas_multipais": {
+        "query":       "SELECT * FROM platinum_ia.vw_cobranzas_multipais",
+        "descripcion": "Vista de cobranzas multi-pais",
+        "universo":    "cobranzas",  # → archivo: cobranzas_platinum.parquet
+    },
+
     # ── Legales (desactivado - data manejada por otro proceso) ───────────────
     # "legales_uif": {
     #     "query":       "SELECT * FROM platinum_ia.monitor_uif_arg",
