@@ -39,7 +39,7 @@ TABLAS: dict[str, dict] = {
 
     # ── Marketing ─────────────────────────────────────────────────────────────
     "marketing_multipais": {
-        "query":       "SELECT * FROM platinum_ia.vw_funnel_marketing_multipais",
+        "query":       "SELECT * FROM platinum_ia.funnel_marketing_multipais",
         "descripcion": "Funnel de marketing multi-pais",
         "universo":    "marketing",  # → archivo: marketing_platinum.parquet
     },
