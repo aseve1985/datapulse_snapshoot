@@ -37,12 +37,12 @@ TABLAS: dict[str, dict] = {
         "universo":    "cobranzas",  # → archivo: cobranzas_platinum.parquet
     },
 
-    # ── Marketing ─────────────────────────────────────────────────────────────
-    "marketing_multipais": {
-        "query":       "SELECT * FROM platinum_ia.funnel_marketing_multipais",
-        "descripcion": "Funnel de marketing multi-pais",
-        "universo":    "marketing",  # → archivo: marketing_platinum.parquet
-    },
+    # ── Marketing (desactivado - consultado con otra metodologia) ────────────
+    # "marketing_multipais": {
+    #     "query":       "SELECT * FROM platinum_ia.funnel_marketing_multipais",
+    #     "descripcion": "Funnel de marketing multi-pais",
+    #     "universo":    "marketing",
+    # },
 
     # ── Legales (desactivado - data manejada por otro proceso) ───────────────
     # "legales_uif": {
